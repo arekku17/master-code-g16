@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.logo img{
+    display: inline-block;
+    max-width: 100px;
+    margin: 0 20px;
+}
+
+h1, h2, p{
+    margin: 5px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+img{
+    max-width: 500px;
+}
+
+nav{
+    background-color: coral;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 0 50px;
+    font-family: 'Fredoka', sans-serif;
+    background-color: bisque;
+}
+
+nav li:hover{
+    background-color: cadetblue;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.content-center{
+    margin: auto 200px;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.content-center h2{
+    text-align: center;
+}
+
+.redes img{
+    display: inline-block;
+    max-width: 100px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+
+.red{
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.redes{
+    text-align: center;
+}
+
+.tabla{
+    margin: 0 auto;
+}

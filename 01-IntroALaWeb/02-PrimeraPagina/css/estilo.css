@@ -14,5 +14,5 @@ nav{
 nav li{
     display: inline-block;
     font-size: 20px;
-    padding: 5px;
+    padding: 0 20px;
 }

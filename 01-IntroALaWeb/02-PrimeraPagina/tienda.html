@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="img/logotienda.png" alt="logo">
+                <h1>Mi tiendita</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#datos">Inicio</a></li>
+                    <li><a href="#nosotros">Sobre nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                    <li> <a href="#formulario">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <div class="content-center">
+        <section id="nosotros">
+            <h2 align="center">Nuestra Historia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt libero, maxime molestiae enim consectetur, aperiam quasi officiis ut debitis unde voluptatum exercitationem eos dolores possimus culpa autem. Inventore, ad molestiae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est dolore nihil impedit maiores dicta explicabo repellat dolor quisquam quaerat assumenda repellendus eaque fuga, cum rerum quas aut cupiditate quae ut?</p>
+        </section>
+    
+        <section class="productos">
+            <h2>Productos</h2>
+            <div class="producto1">
+                <img src="https://www.holded.com/wp-content/uploads/2020/09/ciclo-de-vida-de-un-producto-4.png" alt="producto1">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint voluptas iure reprehenderit impedit adipisci. Quo, tempora blanditiis. Numquam aliquid rerum ex voluptatibus corrupti, molestiae laudantium nulla, minus, aliquam corporis perspiciatis?</p>
+            </div>
+            <div class="producto2">
+                <img src="img/producto2.webp" alt="producto2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, dignissimos consequatur? Sint enim dolorum voluptate iure quisquam at voluptatibus nihil veritatis quaerat! Maiores nostrum, illum laborum minima ex cum ipsa.</p>
+            </div>
+        </section>
+    
+        <section id="contactos" class="contacto">
+            <h2>Tabla de contactos</h2>
+            <table border="1" class="tabla">
+                <tr>
+                    <th>Nombre de contacto</th>
+                    <th>Telefono</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Alfonso Vique</td>
+                    <td>9821278010</td>
+                    <td>alfondo@gmail.com</td>
+                </tr>
+            </table>
+    
+            <h2>Ubicación</h2>
+            <p>Nos puedes encontrar aca: </p>
+            <input type="button" onClick="alert('Calle 23')" value="Haz Click">
+            <div class="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1026.2471653427303!2d-90.72060137908149!3d19.356543223440735!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1647481564856!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-_D4-EgE0k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+            <div class="redes">
+                <h2>Nuestras Redes</h2>
+                <div class="red">
+                    <a href="https://www.facebook.com/alex170702/" target="_blank">
+                        <img src="img/facebook.webp" alt="facebook">
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="red">
+                    <a href="https://twitter.com/_arekku17" target="_blank">
+                        <img src="img/twitter.png" alt="twitter">
+                        <p>Twitter</p>
+                    </a>
+                </div> 
+            </div>
+    
+        </section>
+    
+        <section id="formulario" class="formulario">
+            <h2>Formulario</h2>
+            <form action="">
+                <p>Nombre del producto:</p>
+                <input type="text" name="nombre" id="nombre">
+                <p>Tipo de producto:</p>
+                <input type="text" name="tipo" id="tipo">
+                <p>Marca:</p>
+                <input type="text" name="marca" id="marca">
+                <p>Cantidad:</p>
+                <input type="number" name="cantidad" id="cantidad">
+                <br>
+                <input type="button" value="Enviar">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
