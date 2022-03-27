@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    flex-grow: 1;
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.item:hover{
+    background-color: #efefef;
+}
+
+.selected{
+    background-color: black;
+    color: white;
+}
+
+nav img{
+    height: 24px;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+nav a i{
+    color: #767676;
+    font-size: 1.5rem;
+}
+
+.search{
+    flex-grow: 25;
+    margin-right: 20px;
+}
+
+.flechita i{
+    font-size: 1rem;
+}
+
+.flechita{
+    margin-right: 15px;
+    height: 30px;
+}
+
+.user img{
+    border-radius: 50%;
+}
+
+form {
+    position: relative;
+    height: 40px;
+    background: #efefef;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+form i{
+    color: #767676;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+
+input{
+    height: 80%;
+    width: 100%;
+    border: 0;
+    font-size: 1rem;
+    background-color: #efefef;
+}
+
+input:focus{
+    outline: none;
+}
+
+nav a p{
+    font-weight: bold;
+}
+
+.links{
+    padding: 0 3px;
+}
+
+/* FOOTER */
+
+footer{
+    position:fixed;
+    bottom:50px;
+	right:20px;
+    height:100px;
+    width: 60px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.float{
+    text-decoration: none;
+	width:60px;
+	height:60px;
+	background-color: white;
+	color:black;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    margin-bottom: 10px;
+}
+
+.float:hover{
+    background-color: #f0f0f0;
+}
+
+.my-float{
+	margin-top:18px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+    .search {
+        flex-grow: 1;
+        margin-right: 5px;
+    }
+    form{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .search {
+        flex-grow: 1;
+        margin-right: 5px;
+    }
+    form{
+        width: 150px;
+    }
+}
