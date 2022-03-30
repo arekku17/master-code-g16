@@ -124,6 +124,7 @@ footer{
 	right:20px;
     height:100px;
     width: 60px;
+    z-index: 2;
 }
 
 div{

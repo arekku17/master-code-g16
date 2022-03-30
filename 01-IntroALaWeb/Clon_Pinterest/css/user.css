@@ -1,0 +1,47 @@
+main{
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 320px;
+
+}
+
+.card-user img{
+    max-width: 120px;
+    border-radius: 50%;
+}
+
+.card-user h1{
+    font-size: 2.5rem;
+}
+
+.username{
+    color: rgb(110, 110, 110);
+    font-size: 1;
+}
+
+.follow{
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 225px;
+    justify-content: space-between;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-color: #efefef;
+    padding: 15px;
+    border-radius: 30px;
+}
